@@ -17,3 +17,36 @@ iframe {
     height: 100%;
 }
 
+.iconfont {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.layui-icon {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.userinfo {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.userinfo img {
+    width: 40px;
+    height: 40px;
+}
+
+.text-avatar {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: green;
+    font-size: 20px;
+    line-height: 40px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
