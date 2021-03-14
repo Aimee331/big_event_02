@@ -42,6 +42,7 @@ $(function () {
                     layer.msg(res.message, { icon: 5 })
                 } else {
                     //清空表单
+                    layer.msg(res.message, { icon: 6 })
                     $('#reg-form')[0].reset()
                     $('#link_login').click()
                 }
