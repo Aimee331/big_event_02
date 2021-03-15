@@ -59,9 +59,12 @@ $(function () {
             data: $('#login-form').serialize(),
             success: (res) => {
                 console.log(res);
-                if (res.status === 0) return location.href = '/index.html'
-                layer.msg(res.message, { icon: 5 })
-                $('#login-form')[0].reset()
+                if (res.status === 0) {
+                    location.href = '/index.html'
+                    localStorage.setItem('token', res.token)
+                } else {
+                    layer.msg(res.message, { icon: 5 })
+                }
             }
         })
     })
